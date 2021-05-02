@@ -21,14 +21,22 @@
 <label for="number" id="number-label"> Pick a number 1-100
 <input id="number" type="number" placeholder="Insert a number 1-100" min="1" max="100">
 </label>
-<div id="dropdown">
+<p>How do you do web design?</p>
+<label for="dropdown">
+<select id="dropdown" name="Ways to use web design">
+<option disabled="" selected="" value="">Select the way you web design</option>
+<option value="html+css">HTML And CSS</option>
+<option value="php">PHP</option>
+<option value="Don't do web design">I don't use web design</option>
+<option value="other">Other</option>
+</select>
+</label>
 <p>What's the best programming language?</p>
 <input type="radio" name="Form Buttons" value="html"> HTML
 <input type="radio" name="Form Buttons" value="css"> CSS
 <input type="radio" name="Form Buttons" value="js"> JS
 <input type="radio" name="Form Buttons" value="py"> PY
 <input type="radio" name="Form Buttons" value="other"> Other
-</div>
 <p>What programming languages do you know?</p>
 <input type="checkbox" name="Form Boxes" value="html">HTML
 <input type="checkbox" name="Form Boxes" value="css">CSS
