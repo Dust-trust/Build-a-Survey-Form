@@ -8,3 +8,7 @@ text-align: center;
 html {
 font-size: large;
 }
+button {
+background-color: red;
+border: 1px solid black;
+}
