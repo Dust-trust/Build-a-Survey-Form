@@ -2,6 +2,9 @@
 font-family: 'Krona One', sans-serif;
 background-color: #d3d3d3;
 }
-.center{
+html {
 text-align: center;
+}
+html {
+font-size: large;
 }
